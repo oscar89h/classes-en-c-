@@ -8,7 +8,6 @@ std::string Account::get_name() {
 	return name;
 };
 
-
 bool Account::deposite(double amount) {
 	
 	balance += amount;
